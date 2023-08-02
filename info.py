@@ -49,9 +49,9 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'ApnaTube_files')
 # Others
 IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'False')), False)
 HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', "https://t.me/ApnaTube/23")
-VERIFY2_URL = environ.get('VERIFY2_URL', "greymatterslinks.in")
+VERIFY2_URL = environ.get('VERIFY2_URL', "apnatube.in")
 VERIFY2_API = environ.get('VERIFY2_API', "78cc46dbf9ce97e7df41416acd4ae52da1c20c84")
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'greymatterslinks.in')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'playlab.site')
 SHORTLINK_API = environ.get('SHORTLINK_API', '78cc46dbf9ce97e7df41416acd4ae52da1c20c84')
 IS_SHORTLINK = is_enabled((environ.get('IS_SHORTLINK', 'False')), False)
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
